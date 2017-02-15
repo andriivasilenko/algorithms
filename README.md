@@ -1,2 +1,2 @@
-# algorithms
-Learn algoritms in practice. 
+# Algorithms
+Learn algorithms and PHP in practice. 
