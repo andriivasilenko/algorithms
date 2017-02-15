@@ -1,7 +1,5 @@
 <?php
 
-$arr = array('one', 'two', 'tree', 'four', 'fifth');
-
 // Линейный поиск
 function linear_search($arr, $x) {
   $result = null;
