@@ -1,6 +1,7 @@
 <?php
 
 // Линейный поиск
+
 function linear_search($arr, $x) {
   $result = null;
   $i = 0;
@@ -37,6 +38,5 @@ function sentinel_linear_search($arr, $x) {
     $i++;
   }
   $result = $i == count($arr) - 1? null : $i;
-  return $result;
-
+  return $i;
 }
