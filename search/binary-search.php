@@ -6,8 +6,7 @@ function binary_search($arr, $x) {
 
   while($last >= $first) {
     $middle = floor(($first + $last) / 2);
-    //print_r($middle);
-    if ($arr[$middle] == $x) { //7
+    if ($arr[$middle] == $x) {
       return $middle;
     }
     if ($arr[$middle] > $x) {
